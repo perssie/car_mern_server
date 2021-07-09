@@ -19,8 +19,8 @@ app.use("/user", userRouter);
 
 // init connection to database
 // local config
-const CONNECTION_URL = 'mongodb://localhost/carDB';
-//const CONNECTION_URL = "mongodb+srv://persie:rakotoson963@cluster0.wvss5.mongodb.net/carDB?retryWrites=true&w=majority";
+// const CONNECTION_URL = 'mongodb://localhost/carDB';
+const CONNECTION_URL = "mongodb+srv://persie:rakotoson963@cluster0.wvss5.mongodb.net/carDB?retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5001;
 
